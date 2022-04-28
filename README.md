@@ -10,4 +10,12 @@ Antonia Mey -- antonia.mey@ed.ac.uk
 
 This repo contains a notebook for extracting secondary structure information from alpha fold proteins that have an average confidence score of > 0.9.
 
-You can launch this [binder]() to try it for yourself. 
+# Cheat sheet of secondary structure information:
+  -----------------------------------------------
+    H = α-helix
+    B = residue in isolated β-bridge
+    E = extended strand, participates in β ladder
+    G = 3-helix (310 helix)
+    I = 5 helix (π-helix)
+    T = hydrogen bonded turn
+    S = bend
