@@ -1,5 +1,8 @@
 # Alpha Fold Secondary Structure
 
+# Binder
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/meyresearch/alpha_fold_secondary_structure/main)
+
 # Authors
 Antonia Mey -- antonia.mey@ed.ac.uk
 
