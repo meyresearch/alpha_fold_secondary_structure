@@ -8,7 +8,15 @@ from collections import Counter
 
 import json
 
-
+def download_uniprot_json_file(uni_prot_id, workdir = '.'):
+        #check if there is uniprot information available for the protein
+        try:
+            url_2 = 'https://www.uniprot.org/uniprot/' + uni_prot_id + '.json'
+            html_2 = urllib.request.urlopen(url_2)
+            print(html_2)
+    
+        except Exception as e:
+            raise Exception('Failed to obtain UNIPROT data. %s'%e)
 
 def download_alpha_fold_pdbs(uniprot_id_list, workdir = '.'):
     counter = 0
